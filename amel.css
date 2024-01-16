@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kalkulator {
+    display: grid;
+    width: 210px;
+    border: 3px solid black;
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: 
+        "A A A A"
+        "B C D E"
+        "F G H E"
+        "I J K L"
+        "M N N L";
+        column-gap: 10px;
+        row-gap: 10px;
+}
+
+.tampilan {
+    grid-area: A;
+    background: green;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.satu {
+    grid-area: B;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dua {
+    grid-area: C;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiga {
+    grid-area: D;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus {
+    grid-area: E;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empat {
+    grid-area: F;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lima {
+    grid-area: G;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enam {
+    grid-area: H;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tujuh {
+    grid-area: I;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delapan {
+    grid-area: J;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sembilan {
+    grid-area: K;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.min {
+    grid-area: L;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nol {
+    grid-area: M;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.samaDengan {
+    grid-area: N;
+    background: pink;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tombol:active{
+    background: green;
+}
